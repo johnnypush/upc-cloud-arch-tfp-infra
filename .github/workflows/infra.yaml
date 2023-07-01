@@ -29,5 +29,5 @@ jobs:
            terraform init -backend-config=$BACKEND_CONFIG
            terraform validate
            terraform plan
-           terraform apply --auto-approve
-           #terraform apply -destroy --auto-approve
+           #terraform apply --auto-approve
+           terraform apply -destroy --auto-approve
